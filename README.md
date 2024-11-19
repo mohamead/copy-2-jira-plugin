@@ -29,7 +29,7 @@ Simple plugin that lets you copy code from the IDE directly to a jira task(s), w
 
 
 ## Usage
-In order to use the plugin select a piece of code, right click (or use the context menu button) then use Copy 2 jira > Copy Code / Copy Code with Title
+In order to use the plugin select a piece of code, right click (or use the context menu button) and select <kbd>Copy 2 jira</kbd> > <kbd>Copy Code</kbd> or <kbd>Copy Code with Title</kbd>
 
 ![Image Alt text](./images/CopyCode.png)
 
@@ -41,8 +41,10 @@ Select `Visual` to see the format.
 
 ![Image Alt text](./images/CopyCode_3.png)
 
+**NB!** The plugin supports the following programming languages: `ActionScript`, `Ada`, `AppleScript`, `bash`, `C`, `C#`, `C++`, `CSS`, `Erlang`, `Go`, `Groovy`, `Haskell`, `HTML`, `Java`, `JavaScript`, `JSON`, `Lua`, `Nyan`, `Objc`, `Perl`, `PHP`, `Python`, `R`, `Ruby`, `Scala`, `SQL`, `Swift`, `VisualBasic`, `XML` and `YAML`
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes`, `please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
