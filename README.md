@@ -29,7 +29,17 @@ Simple plugin that lets you copy code from the IDE directly to a jira task(s), w
 
 
 ## Usage
-WIP
+In order to use the plugin select a piece of code, right click (or use the context menu button) then use Copy 2 jira > Copy Code / Copy Code with Title
+
+![Image Alt text](./images/CopyCode.png)
+
+In a jira task, e.g. under comment, select `Text` and past inn code.
+
+![Image Alt text](./images/CopyCode_2.png)
+
+Select `Visual` to see the format. 
+
+![Image Alt text](./images/CopyCode_3.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

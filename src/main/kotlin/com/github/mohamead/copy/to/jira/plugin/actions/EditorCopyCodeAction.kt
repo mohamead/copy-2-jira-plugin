@@ -28,6 +28,7 @@ internal open class EditorCopyCodeAction : CopyToJiraAction() {
         "java",
         "js",
         "json",
+        "kt",
         "lua",
         "pl",
         "php",
