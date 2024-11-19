@@ -44,7 +44,7 @@ Select `Visual` to see the format.
 **NB!** The plugin supports the following programming languages: `ActionScript`, `Ada`, `AppleScript`, `bash`, `C`, `C#`, `C++`, `CSS`, `Erlang`, `Go`, `Groovy`, `Haskell`, `HTML`, `Java`, `JavaScript`, `JSON`, `Lua`, `Nyan`, `Objc`, `Perl`, `PHP`, `Python`, `R`, `Ruby`, `Scala`, `SQL`, `Swift`, `VisualBasic`, `XML` and `YAML`
 
 ## Contributing
-Pull requests are welcome. For major changes`, `please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
