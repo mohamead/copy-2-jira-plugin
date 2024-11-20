@@ -1,8 +1,8 @@
 # ![copy2jira](./src/main/resources/META-INF/pluginIcon.svg)Copy 2 Jira
 
 ![Build](https://github.com/mohamead/copy-2-jira-plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/25886)](https://plugins.jetbrains.com/plugin/25886-copy-2-jira/versions)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/25886)](https://plugins.jetbrains.com/plugin/25886-copy-2-jira)
 
 <!-- Plugin description -->
 Simple plugin that lets you copy code from the IDE directly to a jira task(s), without using jira code formatter. 
