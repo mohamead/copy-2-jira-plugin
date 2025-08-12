@@ -1,18 +1,21 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mohamead.copy2jiraplugin</id>
-    <name>copy-2-jira-plugin</name>
-    <vendor>mohamead</vendor>
-
+    <id>com.github.mohamead.copy.to.jira.plugin</id>
+    <name>Copy 2 Jira</name>
+    <vendor>Mohamed Adrik</vendor>
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <actions>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.mohamead.copy2jiraplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
+        <group id="CopyToJira.Editor" text="Copy to Jira" icon="com.github.mohamead.copy.to.jira.plugin.icons.CopyToJiraIcons.Jira" popup="true">
+            <action id="CopyToJira.Editor.CopyCode" class="com.github.mohamead.copy.to.jira.plugin.actions.EditorCopyCodeAction"
+                    text="Copy Code" anchor="first">
+            </action>
+            <action id="CopyToJira.Editor.CopyCodeWithTitle" class="com.github.mohamead.copy.to.jira.plugin.actions.EditorCopyCodeWithTitleAction"
+                    text="Copy Code with Title" anchor="last">
+            </action>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </group>
+    </actions>
 
-    <applicationListeners>
-        <listener class="com.github.mohamead.copy2jiraplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
